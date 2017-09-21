@@ -63,42 +63,22 @@ class __TwigTemplate_d89511ea99b55a2667eb8fe1bff07b3641ab9aed7d74da04b1b8bc34682
                 echo $this->getAttribute($context["item"], "content", array());
                 echo "</p>
 
-                <div class=\"social\">
-                  <ul class=\"social-buttons\">
-                    ";
-                // line 22
-                $context['_parent'] = $context;
-                $context['_seq'] = twig_ensure_traversable($this->getAttribute($context["item"], "social", array()));
-                foreach ($context['_seq'] as $context["_key"] => $context["icon"]) {
-                    // line 23
-                    echo "                    <li><a href=\"";
-                    echo $this->getAttribute($context["icon"], "url", array());
-                    echo "\" class=\"social-btn\"><i class=\"fa fa-";
-                    echo $this->getAttribute($context["icon"], "icon", array());
-                    echo "\"></i></a></li>
-                    ";
-                }
-                $_parent = $context['_parent'];
-                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['icon'], $context['_parent'], $context['loop']);
-                $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 25
-                echo "                  </ul>
-                </div>
-
-              </div>
+";
+                // line 29
+                echo "              </div>
               ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 30
+            // line 31
             echo "            </li>
             ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['row'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 32
+        // line 33
         echo "          </ul>
         </div>
       </div>
@@ -120,7 +100,7 @@ class __TwigTemplate_d89511ea99b55a2667eb8fe1bff07b3641ab9aed7d74da04b1b8bc34682
 
     public function getDebugInfo()
     {
-        return array (  102 => 32,  95 => 30,  85 => 25,  74 => 23,  70 => 22,  63 => 18,  59 => 17,  55 => 16,  46 => 15,  42 => 14,  39 => 13,  35 => 12,  25 => 5,  19 => 1,);
+        return array (  82 => 33,  75 => 31,  68 => 29,  63 => 18,  59 => 17,  55 => 16,  46 => 15,  42 => 14,  39 => 13,  35 => 12,  25 => 5,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -152,6 +132,7 @@ class __TwigTemplate_d89511ea99b55a2667eb8fe1bff07b3641ab9aed7d74da04b1b8bc34682
                 <h2>{{ item.title }}</h2>
                 <p>{{ item.content }}</p>
 
+{#
                 <div class=\"social\">
                   <ul class=\"social-buttons\">
                     {% for icon in item.social  %}
@@ -159,7 +140,7 @@ class __TwigTemplate_d89511ea99b55a2667eb8fe1bff07b3641ab9aed7d74da04b1b8bc34682
                     {% endfor %}
                   </ul>
                 </div>
-
+#}
               </div>
               {% endfor %}
             </li>

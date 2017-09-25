@@ -12,6 +12,5 @@ content:
             - 02_features
             - 03_services
             - 07_team
-            - 08_subscribe
             - 09_contact
 ---

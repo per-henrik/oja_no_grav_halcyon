@@ -16,7 +16,7 @@ class __TwigTemplate_c0b8ad082ed7bfdf49b901e51d3efab5a81a1478931e485106bb5c95e41
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<section class=\"dark-bg text-center section-padding contact-wrap\" id=\"kontakt_meg\">
+        echo "<section class=\"subscribe text-center section-padding contact-wrap\" id=\"kontakt_meg\">
   <a href=\"#top\" class=\"up-btn\"><i class=\"fa fa-chevron-up\"></i></a>
   <div class=\"container\">
     <div class=\"row\">
@@ -122,7 +122,7 @@ class __TwigTemplate_c0b8ad082ed7bfdf49b901e51d3efab5a81a1478931e485106bb5c95e41
 
     public function getSourceContext()
     {
-        return new Twig_Source("<section class=\"dark-bg text-center section-padding contact-wrap\" id=\"kontakt_meg\">
+        return new Twig_Source("<section class=\"subscribe text-center section-padding contact-wrap\" id=\"kontakt_meg\">
   <a href=\"#top\" class=\"up-btn\"><i class=\"fa fa-chevron-up\"></i></a>
   <div class=\"container\">
     <div class=\"row\">

@@ -1,49 +1,49 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1505995961,
-    'checksum' => 'f62df9c7504d7e081397af6dd0ee4b9d',
+    'timestamp' => 1506005834,
+    'checksum' => 'b89b998d362906efb183177dd329e0e9',
     'files' => [
         'user/config' => [
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1505995262
+                'modified' => 1506005683
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1505995960
+                'modified' => 1506005683
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1504829416
+                'modified' => 1506005683
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1504829416
+                'modified' => 1506005683
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1504829416
+                'modified' => 1506005683
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1504829416
+                'modified' => 1506005683
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1504829416
+                'modified' => 1506005683
             ]
         ],
         'user/plugins' => [
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1504829416
+                'modified' => 1506005683
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1504829417
+                'modified' => 1506005683
             ]
         ]
     ],
